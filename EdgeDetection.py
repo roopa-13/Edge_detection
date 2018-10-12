@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("C:/Users/roopa/Pictures/proj1_cse573/task1.png", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("task1.png", cv2.IMREAD_GRAYSCALE)
 img = img.astype(float)/255
 imgx_new = img.copy()
 imgy_new = img.copy()
